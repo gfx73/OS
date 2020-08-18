@@ -1,0 +1,2 @@
+echo -e "date\nsleep 3\ndate" > ./ex3.sh
+sh ex3.sh

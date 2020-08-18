@@ -1,0 +1,4 @@
+mkdir ~/week1
+cd ~/week1
+cd /usr/bin
+ls | sort -r | grep gcc > ~/week1/ex1.txt
