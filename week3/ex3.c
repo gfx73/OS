@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>\
+#include <stdlib.h>
 //in this implementation head does not contain any value
 struct Node{
     struct Node *next;
