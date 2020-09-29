@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   8816	   1552	   1004	  11372	   2c6c	./check
