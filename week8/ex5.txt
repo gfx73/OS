@@ -1,0 +1,1 @@
+Virtual memory is typically larger then physical one. It is stored on the hard drive. Physical memory is limited by the size of RAM chips. That is why virtual memory is slower. But it used when the RAM is filled. 

@@ -1,0 +1,5 @@
+16-bit virtual adress.
+Size of page 8KB.
+To get a particular byte out of a table log(8 * 1024) = 13 bytes are needed.
+So there are 3 bits remaning to identify the page. There are 2^3 = 8 pages. 
+Answer: 8.
