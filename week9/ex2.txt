@@ -1,0 +1,14 @@
+Tests for 10 Page Frames.
+Let the first test be 1 2 3 1 2 3 1 2 3
+There we have 3 misses and 6 hits.
+Basically, page fault happens only in first 3 iterations.
+Ratio is 2.
+
+Second test is 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10
+30 misses, no hits.
+It happens because before sequence reaches those numbers(1 2 3 4 5 6 7 8 9 10)
+ second time they are already replaced with those ones(11 12 13 14 15 16 17 18 19 20)
+ So page fault occurs every time.
+ Ratio is 0.
+
