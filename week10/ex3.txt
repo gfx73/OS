@@ -1,0 +1,9 @@
+-rw-rw-r-- 1 kapac kapac 0 окт 20 15:44 _ex3.txt
+-rwxrw-rwx 1 kapac kapac 0 окт 20 15:44 _ex3.txt
+-rwxrwxrwx 1 kapac kapac 0 окт 20 15:44 _ex3.txt
+660
+rw for user and group, no access for others
+775
+rwx for user and group, rx for others
+77
+rwx for all
