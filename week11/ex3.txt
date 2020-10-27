@@ -1,0 +1,10 @@
+In the first program we get two "Hello" because line buffer is used. That's why when whe printf("\n") called buffer each thread prints "Hello\n".
+So we get:
+Hello
+Hello
+In the second case when the fork is done buffer contains nothing, because it gets printed before fork. So when printf("\n") called each thread prints "\n".
+So we get:
+Hello
+
+
+
