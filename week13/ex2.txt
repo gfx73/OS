@@ -1,0 +1,11 @@
+Deadlock detection
+Provides maximum concurrency and resource utilization.
+But roll-backs happen, also even if there is no deadlock cycle checking performed.
+
+Deadlock prevention
+Is good when rool-backs are too expensive or not impossible
+Low resource utilization
+
+Avoidance
+no roll-backs
+It is required to know resource requirements in advance.
